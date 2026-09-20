@@ -1,0 +1,20 @@
+[project]
+name = "polyxml-w3c-tests"
+version = "0.1.0"
+description = "Official W3C XML Schema 1.1 Conformance Test Suite for PolyXML"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.0",
+    "rich>=13.0.0",
+    "pytest>=8.0.0",
+    "pytest-xdist>=3.5.0",
+    "polyxml",
+]
+
+[tool.uv.sources]
+polyxml = { path = "../PolyXML/crates/polyxml-python", editable = true }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --tb=short"

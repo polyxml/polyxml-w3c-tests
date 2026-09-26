@@ -1,11 +1,11 @@
 # PolyXML W3C XML Schema Test Suite Conformance Harness
 
 [![W3C XSTS Conformance](https://img.shields.io/badge/W3C%20XSTS-Conformance-brightgreen.svg)](https://github.com/w3c/xsdtests)
-[![PolyXML](https://img.shields.io/badge/Engine-PolyXML-blue.svg)](https://github.com/nth-bailey/PolyXML)
+[![PolyXML](https://img.shields.io/badge/Engine-PolyXML-blue.svg)](https://github.com/polyxml/PolyXML)
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/)
 [![Tested with uv](https://img.shields.io/badge/tested%20with-uv-purple.svg)](https://github.com/astral-sh/uv)
 
-Automated conformance testing harness for the **[PolyXML](https://github.com/nth-bailey/PolyXML)** polyglot schema compiler against the official **[W3C XML Schema 1.0 / 1.1 Test Suite (XSTS)](https://github.com/w3c/xsdtests)**.
+Automated conformance testing harness for the **[PolyXML](https://github.com/polyxml/PolyXML)** polyglot schema compiler against the official **[W3C XML Schema 1.0 / 1.1 Test Suite (XSTS)](https://github.com/w3c/xsdtests)**.
 
 Inspired by [tefra/xsdata-w3c-tests](https://github.com/tefra/xsdata-w3c-tests), this repository provides a standalone, reproducible test environment to validate code generation correctness, type safety, and bidirectional serialization fidelity across hundreds of standard W3C test groups.
 
@@ -52,7 +52,7 @@ Tested against the official W3C XML Schema Test Collection:
 Clone this repository with submodules:
 
 ```bash
-git clone --recursive https://github.com/nth-bailey/polyxml-w3c-tests.git
+git clone --recursive https://github.com/polyxml/polyxml-w3c-tests.git
 cd polyxml-w3c-tests
 
 # Install dependencies using uv

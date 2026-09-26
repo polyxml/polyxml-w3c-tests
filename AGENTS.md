@@ -6,12 +6,12 @@ Instructions and guidelines for AI coding assistants working in the `polyxml-w3c
 
 ## 1. Project Overview
 
-`polyxml-w3c-tests` is the official conformance test suite and validation harness for the **[PolyXML](https://github.com/nth-bailey/PolyXML)** polyglot XML schema compiler and runtime engine.
+`polyxml-w3c-tests` is the official conformance test suite and validation harness for the **[PolyXML](https://github.com/polyxml/PolyXML)** polyglot XML schema compiler and runtime engine.
 
 Inspired by [tefra/xsdata-w3c-tests](https://github.com/tefra/xsdata-w3c-tests), this repository provides an automated, reproducible environment to execute the official **W3C XML Schema 1.0 / 1.1 Test Suite (XSTS)** against the `polyxml` compiler, verifying schema code generation correctness, type safety, and round-trip serialization fidelity.
 
 - **Technology**: Python 3.12+, `uv`, `click`, `rich`, `pytest`.
-- **Repository**: `nth-bailey/polyxml-w3c-tests`
+- **Repository**: `polyxml/polyxml-w3c-tests`
 - **Supported Python**: `Python >= 3.12` exclusively.
 - **Maintainer**: Bailey Nguyen (`bailey.tan.nguyen@gmail.com`).
 
@@ -60,7 +60,7 @@ When contributing or refactoring in this repository, strictly maintain the follo
 
 ```bash
 # Clone with submodules
-git clone --recursive https://github.com/nth-bailey/polyxml-w3c-tests.git
+git clone --recursive https://github.com/polyxml/polyxml-w3c-tests.git
 cd polyxml-w3c-tests
 
 # Synchronize virtual environment with uv
